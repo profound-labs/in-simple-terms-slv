@@ -1,0 +1,160 @@
+\documentclass[11pt,twoside,final]{memoir}
+
+\usepackage{mylayout}
+
+%% Details of the book
+%% ===================
+
+\title{S Preprostimi Besedami}
+\subtitle{108 budističnih prispodob v razmislek}
+\author{Častiti Ajahn Chah}
+\date{}
+% TODO: translate edition text
+\editionInfo{\textit{First edition}, 10,000 copies, printed in Malaysia -- 2013}
+% Title comment: ...
+% Publisher name: ...
+% Printer name: ...
+\ISBN{978-1-908444-31-8}
+% Copyright text: ...
+
+%% Load further packages
+%% =====================
+
+\usepackage{lipsum}
+
+%% Hyphenation exceptions and corrections
+%% ======================================
+
+% \hyphenation{}
+
+\begin{document}
+
+\emptysheet
+
+%% Frontmatter
+%% ===========
+
+\frontmatter*
+
+%% About
+%% -----
+%% Short review or summary of the book, or comments by others.
+%% Brief bigraphy of the author, translator, editor, and their connection to the text.
+
+\cleartoverso
+\thispagestyle{empty}
+\input{./src-tex/about.tex}
+
+%% Title page
+%% ----------
+%% subtitle, editor, translator, preface by, introduction by, publisher
+
+\cleartorecto
+\thispagestyle{empty}
+\input{./src-tex/titlepage.tex}
+
+%% Copyright page
+%% --------------
+%% publisher info, edition info, ISBN, etc.
+
+\cleartoverso
+\thispagestyle{empty}
+\input{./src-tex/copyright-aruno.tex}
+
+%% Acknowledgements
+%% ----------------
+%% * acknowledgement of sponsors
+%% * summary of where this material comes from
+%% * translator(s) and original sources
+%% * acknowledgement permissions to reprint sections that appeared somewherer else
+
+\cleartorecto
+\thispagestyle{empty}
+\input{./src-tex/acknowledgements.tex}
+
+%% Dedication
+%% ----------
+
+% \cleartorecto
+% \thispagestyle{empty}
+% {\raggedleft\vspace*{5em}\par
+% To all who write summaries of \emph{imaginary} books
+% \par}
+
+%% Table of Contents
+%% -----------------
+
+\cleartorecto
+\tableofcontents*
+
+%% Preface
+%% Introduction
+%% ----------------
+
+\chapterstyle{frontmatter}
+
+\chapter{Uvod}
+\input{./src-tex/introduction.tex}
+
+%% Further Reading
+%% Tranlator's Note
+%% Editor's Note
+%% ----------------
+
+\chapter{Predgovor za Slovenskega Bralca}
+\input{./src-tex/editors-note.tex}
+
+% Centered quote on page
+% ----------------------
+
+\begin{quotepage}{0.7\linewidth}
+\itshape
+">… Dhamma je prav takšna, govorjenje v prispodobah,\\
+kajti sama nima ničesar.\\
+Ni okrogla, nima vogalov.\\
+Ni drugega načina, da jo spoznamo, kot\\
+s takšnimi prispodobami. Če to razumete,\\
+razumete Dhammo."<
+
+">Ne mislite, da je Dhamma nekje daleč stran.\\
+Je tu pri vas; je o vas. Poglejte.\\
+En hip srečni, naslednjo minuto žalostni, zadovoljni,\\
+pa spet jezni na nekoga, polni sovraštva do njega:\\
+vse je Dhamma …"<
+
+{\upshape Ajahn Chah}
+\end{quotepage}
+
+%% Main matter
+%% ===========
+
+\mainmatter*
+
+\book{108 PRISPODOB}{108 Prispodob}
+
+\setcounter{chapter}{0}
+
+\chapterstyle{mainmatter}
+
+\input{./src-tex/similes.tex}
+
+%% Backmatter
+%% ==========
+%% Appendices, Glossary, Notes, Index...
+
+\backmatter
+
+\bookmarksetup{startatroot}
+
+\chapterstyle{backmatter}
+
+%% Copyright details
+%% -----------------
+
+\cleartorecto
+\thispagestyle{plain}
+\input{./src-tex/copyright-details-aruno.tex}
+
+\emptysheet
+
+\end{document}
