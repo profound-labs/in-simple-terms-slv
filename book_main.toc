@@ -1,31 +1,31 @@
 \select@language {slovene}
-\contentsline {chapter}{Uvod}{17}{chapter*.1}
-\contentsline {chapter}{Predgovor za Slovenskega Bralca}{21}{chapter*.2}
-\contentsline {book}{\booknumberline {I}108 PRISPODOB}{23}{book.1}
-\contentsline {section}{Tvoj pravi dom}{24}{section*.4}
-\contentsline {section}{Proti oceanu}{24}{section*.5}
-\contentsline {section}{Podtalnica}{24}{section*.6}
-\contentsline {section}{Vse je tu}{25}{section*.7}
-\contentsline {section}{Korenine}{25}{section*.8}
-\contentsline {section}{Sloni, voli in vodni bivoli}{25}{section*.9}
-\contentsline {section}{Izgubljena denarnica}{26}{section*.10}
-\contentsline {section}{Listje}{27}{section*.11}
-\contentsline {section}{Kos ledu}{27}{section*.12}
-\contentsline {section}{Voz in njegove sledi}{28}{section*.13}
-\contentsline {section}{Otroci, izstrelki}{28}{section*.14}
-\contentsline {section}{Kačji rep}{29}{section*.15}
-\contentsline {section}{Kralj smrti}{30}{section*.16}
-\contentsline {section}{Začetek je konec}{31}{section*.17}
-\contentsline {section}{Obarvana voda}{31}{section*.18}
-\contentsline {section}{Sirota}{32}{section*.19}
-\contentsline {section}{Zakaj je težko}{32}{section*.20}
-\contentsline {section}{Injekcijska igla}{33}{section*.21}
-\contentsline {section}{Košček mesa, ki se zatakne med zobe}{34}{section*.22}
-\contentsline {section}{Drezanje v mravljišče rdečih mravelj}{34}{section*.23}
-\contentsline {section}{Smrtna žeja}{35}{section*.24}
-\contentsline {section}{Ujeta žaba}{36}{section*.25}
+\contentsline {chapter}{Uvod}{13}{chapter*.1}
+\contentsline {chapter}{Predgovor za Slovenskega Bralca}{15}{chapter*.2}
+\contentsline {book}{\booknumberline {I}108 Prispodob}{17}{book.1}
+\contentsline {section}{Tvoj pravi dom}{19}{section*.4}
+\contentsline {section}{Proti oceanu}{20}{section*.5}
+\contentsline {section}{Podtalnica}{20}{section*.6}
+\contentsline {section}{Vse je tu}{21}{section*.7}
+\contentsline {section}{Korenine}{21}{section*.8}
+\contentsline {section}{Sloni, voli in vodni bivoli}{22}{section*.9}
+\contentsline {section}{Izgubljena denarnica}{23}{section*.10}
+\contentsline {section}{Listje}{23}{section*.11}
+\contentsline {section}{Kos ledu}{24}{section*.12}
+\contentsline {section}{Voz in njegove sledi}{25}{section*.13}
+\contentsline {section}{Otroci, izstrelki}{26}{section*.14}
+\contentsline {section}{Kačji rep}{27}{section*.15}
+\contentsline {section}{Kralj smrti}{28}{section*.16}
+\contentsline {section}{Začetek je konec}{29}{section*.17}
+\contentsline {section}{Obarvana voda}{30}{section*.18}
+\contentsline {section}{Sirota}{30}{section*.19}
+\contentsline {section}{Zakaj je težko}{31}{section*.20}
+\contentsline {section}{Injekcijska igla}{32}{section*.21}
+\contentsline {section}{Košček mesa, ki se zatakne med zobe}{33}{section*.22}
+\contentsline {section}{Drezanje v mravljišče rdečih mravelj}{33}{section*.23}
+\contentsline {section}{Smrtna žeja}{34}{section*.24}
+\contentsline {section}{Ujeta žaba}{35}{section*.25}
 \contentsline {section}{Kratka roka}{36}{section*.26}
-\contentsline {section}{Trn}{37}{section*.27}
+\contentsline {section}{Trn}{36}{section*.27}
 \contentsline {section}{Hov! hov! hov!}{37}{section*.28}
 \contentsline {section}{Pes na kupu neoluščenega riža}{38}{section*.29}
 \contentsline {section}{Garje}{39}{section*.30}
@@ -34,80 +34,79 @@
 \contentsline {section}{Samotna pot}{41}{section*.33}
 \contentsline {section}{Kokoš in raca}{42}{section*.34}
 \contentsline {section}{Neslana sol}{43}{section*.35}
-\contentsline {section}{Prenašanje skale}{43}{section*.36}
-\contentsline {section}{Iver}{44}{section*.37}
-\contentsline {section}{Ribarjenje na slepo}{45}{section*.38}
-\contentsline {section}{Pljuvalnik}{46}{section*.39}
-\contentsline {section}{Olupki in lupine}{47}{section*.40}
-\contentsline {section}{Računanje}{48}{section*.41}
-\contentsline {section}{Razbit kozarec}{49}{section*.42}
-\contentsline {section}{Obiranje manga}{50}{section*.43}
-\contentsline {section}{Sol}{50}{section*.44}
-\contentsline {section}{Narobe obrnjen bazen}{50}{section*.45}
-\contentsline {section}{Bazen, ki pušča}{51}{section*.46}
-\contentsline {section}{Voda v vrču}{51}{section*.47}
-\contentsline {section}{Kalup}{52}{section*.48}
-\contentsline {section}{Ovijalke}{53}{section*.49}
-\contentsline {section}{Čaša umazane vode}{53}{section*.50}
-\contentsline {section}{Vaš notranji snemalnik}{54}{section*.51}
-\contentsline {section}{Baloni}{55}{section*.52}
-\contentsline {section}{V primerjavi z volom}{55}{section*.53}
-\contentsline {section}{Srce je svoj lastni učitelj}{55}{section*.54}
-\contentsline {section}{Voda in olje}{56}{section*.55}
-\contentsline {section}{Domnevni menihi, resnični menihi}{56}{section*.56}
-\contentsline {section}{Najprej delo, potem plačilo}{57}{section*.57}
-\contentsline {section}{Izdelovanje miz in stolov}{57}{section*.58}
-\contentsline {section}{Stonoga}{58}{section*.59}
-\contentsline {section}{Pometanje}{59}{section*.60}
-\contentsline {section}{Saditi poprovec}{59}{section*.61}
-\contentsline {section}{Pot v samostan}{60}{section*.62}
-\contentsline {section}{Zdravilo}{60}{section*.63}
-\contentsline {section}{Drgnjenje paličic za netenje ognja}{61}{section*.64}
-\contentsline {section}{Ključ meditacije}{61}{section*.65}
-\contentsline {section}{Vroče in hladno}{62}{section*.66}
-\contentsline {section}{Proti toku}{62}{section*.67}
-\contentsline {section}{Mačka}{63}{section*.68}
-\contentsline {section}{Sladkorni trs}{63}{section*.69}
-\contentsline {section}{Ograja}{63}{section*.70}
-\contentsline {section}{V obliki kroga}{64}{section*.71}
-\contentsline {section}{Požari in poplave}{65}{section*.72}
-\contentsline {section}{Spustiti kozarec}{66}{section*.73}
-\contentsline {section}{Zastrupljena banana}{66}{section*.74}
-\contentsline {section}{Študij ali bitka}{67}{section*.75}
-\contentsline {section}{Roka}{67}{section*.76}
-\contentsline {section}{Nož}{68}{section*.77}
-\contentsline {section}{Zapisane besede}{68}{section*.78}
-\contentsline {section}{Padec z drevesa}{69}{section*.79}
-\contentsline {section}{Učenje pisanja}{70}{section*.80}
-\contentsline {section}{Otrok in odrasel}{70}{section*.81}
-\contentsline {section}{Palica}{71}{section*.82}
-\contentsline {section}{Slikanje slike}{71}{section*.83}
-\contentsline {section}{Hrana, ki ti je všeč}{72}{section*.84}
-\contentsline {section}{Lov na kuščarja}{72}{section*.85}
-\contentsline {section}{Voda kaplja, voda teče}{73}{section*.86}
-\contentsline {section}{Paša vodnih bivolov}{74}{section*.87}
-\contentsline {section}{Kadar moramo premlatiti bivola}{74}{section*.88}
-\contentsline {section}{Vzgoja otroka}{75}{section*.89}
-\contentsline {section}{Pravilna oblika}{75}{section*.90}
-\contentsline {section}{Sejanje riža}{76}{section*.91}
-\contentsline {section}{Učenje otroka}{76}{section*.92}
-\contentsline {section}{Nagajiv otrok}{77}{section*.93}
-\contentsline {section}{Slovo od sorodnika}{78}{section*.94}
-\contentsline {section}{Čuječnost}{78}{section*.95}
-\contentsline {section}{Obiski}{79}{section*.96}
-\contentsline {section}{Kokoš v kletki}{80}{section*.97}
-\contentsline {section}{Živeti s kobro}{81}{section*.98}
-\contentsline {section}{Pustimo kobro na miru}{81}{section*.99}
-\contentsline {section}{Mangi na tleh}{82}{section*.100}
-\contentsline {section}{Žgalna peč}{82}{section*.101}
-\contentsline {section}{Pajek}{83}{section*.102}
-\contentsline {section}{Divje kokoši}{84}{section*.103}
-\contentsline {section}{Opice}{86}{section*.104}
-\contentsline {section}{Drevo se samo podira}{87}{section*.105}
-\contentsline {section}{Dvigovanje nečesa težkega}{88}{section*.106}
-\contentsline {section}{Voda v steklenici, voda iz izvira}{88}{section*.107}
-\contentsline {section}{Stoječa tekoča voda}{89}{section*.108}
-\contentsline {section}{Deblo v kanalu}{89}{section*.109}
-\contentsline {section}{Valovi na obali}{90}{section*.110}
-\contentsline {section}{Žaga}{90}{section*.111}
-\contentsline {chapter}{Glossary}{95}{chapter*.112}
+\contentsline {section}{Prenašanje skale}{44}{section*.36}
+\contentsline {section}{Iver}{45}{section*.37}
+\contentsline {section}{Ribarjenje na slepo}{46}{section*.38}
+\contentsline {section}{Pljuvalnik}{47}{section*.39}
+\contentsline {section}{Olupki in lupine}{48}{section*.40}
+\contentsline {section}{Računanje}{49}{section*.41}
+\contentsline {section}{Razbit kozarec}{50}{section*.42}
+\contentsline {section}{Obiranje manga}{51}{section*.43}
+\contentsline {section}{Sol}{51}{section*.44}
+\contentsline {section}{Narobe obrnjen bazen}{52}{section*.45}
+\contentsline {section}{Bazen, ki pušča}{52}{section*.46}
+\contentsline {section}{Voda v vrču}{53}{section*.47}
+\contentsline {section}{Kalup}{54}{section*.48}
+\contentsline {section}{Ovijalke}{55}{section*.49}
+\contentsline {section}{Čaša umazane vode}{56}{section*.50}
+\contentsline {section}{Vaš notranji snemalnik}{57}{section*.51}
+\contentsline {section}{Baloni}{58}{section*.52}
+\contentsline {section}{V primerjavi z volom}{58}{section*.53}
+\contentsline {section}{Srce je svoj lastni učitelj}{59}{section*.54}
+\contentsline {section}{Voda in olje}{59}{section*.55}
+\contentsline {section}{Domnevni menihi, resnični menihi}{60}{section*.56}
+\contentsline {section}{Najprej delo, potem plačilo}{61}{section*.57}
+\contentsline {section}{Izdelovanje miz in stolov}{61}{section*.58}
+\contentsline {section}{Stonoga}{62}{section*.59}
+\contentsline {section}{Pometanje}{63}{section*.60}
+\contentsline {section}{Saditi poprovec}{63}{section*.61}
+\contentsline {section}{Pot v samostan}{64}{section*.62}
+\contentsline {section}{Zdravilo}{64}{section*.63}
+\contentsline {section}{Drgnjenje paličic za netenje ognja}{65}{section*.64}
+\contentsline {section}{Ključ meditacije}{65}{section*.65}
+\contentsline {section}{Vroče in hladno}{66}{section*.66}
+\contentsline {section}{Proti toku}{66}{section*.67}
+\contentsline {section}{Mačka}{67}{section*.68}
+\contentsline {section}{Sladkorni trs}{67}{section*.69}
+\contentsline {section}{Ograja}{68}{section*.70}
+\contentsline {section}{V obliki kroga}{69}{section*.71}
+\contentsline {section}{Požari in poplave}{70}{section*.72}
+\contentsline {section}{Spustiti kozarec}{70}{section*.73}
+\contentsline {section}{Zastrupljena banana}{71}{section*.74}
+\contentsline {section}{Študij ali bitka}{71}{section*.75}
+\contentsline {section}{Roka}{72}{section*.76}
+\contentsline {section}{Nož}{73}{section*.77}
+\contentsline {section}{Zapisane besede}{73}{section*.78}
+\contentsline {section}{Padec z drevesa}{74}{section*.79}
+\contentsline {section}{Učenje pisanja}{75}{section*.80}
+\contentsline {section}{Otrok in odrasel}{75}{section*.81}
+\contentsline {section}{Palica}{76}{section*.82}
+\contentsline {section}{Slikanje slike}{76}{section*.83}
+\contentsline {section}{Hrana, ki ti je všeč}{77}{section*.84}
+\contentsline {section}{Lov na kuščarja}{78}{section*.85}
+\contentsline {section}{Voda kaplja, voda teče}{79}{section*.86}
+\contentsline {section}{Paša vodnih bivolov}{80}{section*.87}
+\contentsline {section}{Kadar moramo premlatiti bivola}{81}{section*.88}
+\contentsline {section}{Vzgoja otroka}{81}{section*.89}
+\contentsline {section}{Pravilna oblika}{82}{section*.90}
+\contentsline {section}{Sejanje riža}{82}{section*.91}
+\contentsline {section}{Učenje otroka}{83}{section*.92}
+\contentsline {section}{Nagajiv otrok}{83}{section*.93}
+\contentsline {section}{Slovo od sorodnika}{84}{section*.94}
+\contentsline {section}{Čuječnost}{85}{section*.95}
+\contentsline {section}{Obiski}{86}{section*.96}
+\contentsline {section}{Kokoš v kletki}{87}{section*.97}
+\contentsline {section}{Živeti s kobro}{87}{section*.98}
+\contentsline {section}{Pustimo kobro na miru}{88}{section*.99}
+\contentsline {section}{Mangi na tleh}{88}{section*.100}
+\contentsline {section}{Žgalna peč}{89}{section*.101}
+\contentsline {section}{Pajek}{90}{section*.102}
+\contentsline {section}{Divje kokoši}{92}{section*.103}
+\contentsline {section}{Opice}{94}{section*.104}
+\contentsline {section}{Drevo se samo podira}{96}{section*.105}
+\contentsline {section}{Dvigovanje nečesa težkega}{96}{section*.106}
+\contentsline {section}{Voda v steklenici, voda iz izvira}{97}{section*.107}
+\contentsline {section}{Stoječa tekoča voda}{97}{section*.108}
+\contentsline {section}{Deblo v kanalu}{98}{section*.109}
+\contentsline {section}{Valovi na obali}{98}{section*.110}
+\contentsline {section}{Žaga}{99}{section*.111}

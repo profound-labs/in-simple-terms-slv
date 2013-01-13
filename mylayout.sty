@@ -65,6 +65,8 @@
 \newfontfamily\headFont{Arno Pro}
 \newfontfamily\footFont{Gentium}
 
+\newfontfamily\shakerLightFont{Shaker 2 Light}
+
 % lettrineFirstLetter
 % lettrineWords
 
@@ -97,7 +99,7 @@
 \newcommand{\chapnamesize}{\@setfontsize\chapnamesize{22}{24}}
 \newcommand{\chaptitlesize}{\@setfontsize\chaptitlesize{13}{16.5}}
 
-\newcommand{\sectiontitlesize}{\@setfontsize\sectiontitlesize{11.5}{14}}
+\newcommand{\sectiontitlesize}{\@setfontsize\sectiontitlesize{11.5}{18}}
 
 %% ==============================
 %% Packages that come AFTER fonts
@@ -210,10 +212,12 @@ outer=17mm
 
 \newcommand*{\subtitle}[1]{\def\@thesubtitle{#1}}
 \newcommand*{\editionInfo}[1]{\def\@theEditionInfo{#1}}
+\newcommand*{\printedByInfo}[1]{\def\@thePrintedByInfo{#1}}
 \newcommand*{\ISBN}[1]{\def\@theISBN{#1}}
 
 \newcommand\thesubtitle{\@thesubtitle}
 \newcommand\theEditionInfo{\@theEditionInfo}
+\newcommand\thePrintedByInfo{\@thePrintedByInfo}
 \newcommand\theISBN{\@theISBN}
 
 \newsavebox{\quotepagebox}
@@ -315,10 +319,10 @@ outer=17mm
     \createplainmark{index}{both}{\indexname}
     \createplainmark{glossary}{both}{\glossaryname}
   }
-  \makeevenhead{normalpage}{}{\headFont\itshape\small\thetitle}{}
-  \makeoddhead{normalpage}{}{\headFont\itshape\small\leftmark}{}
-  \makeevenfoot{normalpage}{}{\footFont\thepage}{}
-  \makeoddfoot{normalpage}{}{\footFont\thepage}{}
+  \makeevenhead{normalpage}{\headFont\itshape\small\thepage}{}{\headFont\itshape\small\thetitle}
+  \makeoddhead{normalpage}{\headFont\itshape\small\leftmark}{}{\headFont\itshape\small\thepage}
+  \makeevenfoot{normalpage}{}{}{}
+  \makeoddfoot{normalpage}{}{}{}
 
 \pagestyle{normalpage}
 
@@ -342,6 +346,11 @@ outer=17mm
 \setlength{\cftchapternumwidth}{0pt}
 \renewcommand{\chapternumberline}[1]{}
 
+\renewcommand{\cftbookpresnum}[1]{}
+\setlength{\cftbooknumwidth}{0pt}
+
+\renewcommand{\cftsectionfont}{\sectionFont}
+\renewcommand{\cftsectionpagefont}{\normalfont}
 \renewcommand{\cftsectiondotsep}{\cftnodots}
 \renewcommand{\cftsectionpresnum}[1]{}
 \setlength{\cftsectionnumwidth}{0pt}
@@ -380,7 +389,7 @@ outer=17mm
 
 \makechapterstyle{mainmatter}{%
   \chapterstyle{default}
-  \setlength{\beforechapskip}{30mm}
+  \setlength{\beforechapskip}{-\baselineskip}
   \setlength{\midchapskip}{2\baselineskip}
   \setlength{\afterchapskip}{2em}
   \renewcommand*{\chapnumfont}{\chapNumFont\chapnamesize}
@@ -410,11 +419,12 @@ outer=17mm
 
 \DeclareDocumentCommand\Section{oom}{
 \IfNoValueTF{#1}
-  {\section[#3]{\MakeUppercase{\soSection{#3}}}}
-  {\IfNoValueTF{#2}{\section[#1]{\MakeUppercase{\soSection{#3}}}}{\section[#1][#2]{\MakeUppercase{\soSection{#3}}}}}
+  {\section[#3]{\MakeUppercase{#3}}}
+  {\IfNoValueTF{#2}{\section[#1]{\MakeUppercase{#3}}}{\section[#1][#2]{\MakeUppercase{#3}}}}
 }
 
-\setbeforesecskip{-3.5ex \@plus -1ex \@minus -.2ex}
+%\setbeforesecskip{-3.5ex \@plus -1ex \@minus -.2ex}
+\setbeforesecskip{3\baselineskip}
 \setaftersecskip{2.3ex \@plus .2ex}
 
 \setsecheadstyle{\sectionFont\sectiontitlesize\color{chaptitle}}

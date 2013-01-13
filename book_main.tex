@@ -9,18 +9,11 @@
 \subtitle{108 budističnih prispodob v razmislek}
 \author{Častiti Ajahn Chah}
 \date{}
-% TODO: translate edition text
-\editionInfo{\textit{First edition}, 10,000 copies, printed in Malaysia -- 2013}
-% Title comment: ...
-% Publisher name: ...
-% Printer name: ...
+% TODO: translate
+\editionInfo{2013, \textit{First edition}, 2,000 copies}
+\printedByInfo{Printed in Malaysia.}
 \ISBN{978-1-908444-31-8}
 % Copyright text: ...
-
-%% Load further packages
-%% =====================
-
-\usepackage{lipsum}
 
 %% Hyphenation exceptions and corrections
 %% ======================================
@@ -29,27 +22,20 @@
 
 \begin{document}
 
-\emptysheet
+\thispagestyle{empty}
+\mbox{}
+\clearpage
+
+\thispagestyle{empty}
+\mbox{}
+\AddToShipoutPicture*{\put(\LenToUnit{0.8in},\LenToUnit{1in}){\includegraphics[width=1.05in,keepaspectratio]{birch_by_Aj_Vimalo_3_CMYK.png}}}
+\clearpage
 
 %% Frontmatter
 %% ===========
 
 \frontmatter*
 
-%% About
-%% -----
-%% Short review or summary of the book, or comments by others.
-%% Brief bigraphy of the author, translator, editor, and their connection to the text.
-
-\cleartoverso
-\thispagestyle{empty}
-\input{./src-tex/about.tex}
-
-%% Title page
-%% ----------
-%% subtitle, editor, translator, preface by, introduction by, publisher
-
-\cleartorecto
 \thispagestyle{empty}
 \input{./src-tex/titlepage.tex}
 
@@ -61,25 +47,32 @@
 \thispagestyle{empty}
 \input{./src-tex/copyright-aruno.tex}
 
-%% Acknowledgements
-%% ----------------
-%% * acknowledgement of sponsors
-%% * summary of where this material comes from
-%% * translator(s) and original sources
-%% * acknowledgement permissions to reprint sections that appeared somewherer else
+% Centered quote on page
+% ----------------------
 
-\cleartorecto
+\clearpage
+\thispagestyle{empty}
+
+\begin{quotepage}{\linewidth}
+\centering \itshape
+">\ldots{} Dhamma je prav takšna, govorjenje v prispodobah,\\
+kajti sama nima ničesar. Ni okrogla, nima vogalov.\\
+Ni drugega načina, da jo spoznamo, kot\\
+s takšnimi prispodobami. Če to razumete,\\
+razumete Dhammo."<
+
+">Ne mislite, da je Dhamma nekje daleč stran.\\
+Je tu pri vas; je o vas. Poglejte. En hip srečni,\\
+naslednjo minuto žalostni, zadovoljni, pa spet\\
+jezni na nekoga, polni sovraštva do njega:\\
+vse je Dhamma\ldots{}"<
+
+{\upshape AJAHN CHAH}
+\end{quotepage}
+
+\clearpage
 \thispagestyle{empty}
 \input{./src-tex/acknowledgements.tex}
-
-%% Dedication
-%% ----------
-
-% \cleartorecto
-% \thispagestyle{empty}
-% {\raggedleft\vspace*{5em}\par
-% To all who write summaries of \emph{imaginary} books
-% \par}
 
 %% Table of Contents
 %% -----------------
@@ -104,35 +97,15 @@
 \chapter{Predgovor za Slovenskega Bralca}
 \input{./src-tex/editors-note.tex}
 
-% Centered quote on page
-% ----------------------
-
-\begin{quotepage}{0.7\linewidth}
-\itshape
-">… Dhamma je prav takšna, govorjenje v prispodobah,\\
-kajti sama nima ničesar.\\
-Ni okrogla, nima vogalov.\\
-Ni drugega načina, da jo spoznamo, kot\\
-s takšnimi prispodobami. Če to razumete,\\
-razumete Dhammo."<
-
-">Ne mislite, da je Dhamma nekje daleč stran.\\
-Je tu pri vas; je o vas. Poglejte.\\
-En hip srečni, naslednjo minuto žalostni, zadovoljni,\\
-pa spet jezni na nekoga, polni sovraštva do njega:\\
-vse je Dhamma …"<
-
-{\upshape Ajahn Chah}
-\end{quotepage}
-
 %% Main matter
 %% ===========
 
 \mainmatter*
 
-\book{108 PRISPODOB}{108 Prispodob}
+\book{108 Prispodob}
 
 \setcounter{chapter}{0}
+\chaptermark{108 Prispodob}
 
 \chapterstyle{mainmatter}
 
@@ -142,16 +115,23 @@ vse je Dhamma …"<
 %% ==========
 %% Appendices, Glossary, Notes, Index...
 
+\clearpage
+\AddToShipoutPicture*{\put(\LenToUnit{1.5in},\LenToUnit{1.5in}){\includegraphics[width=0.6in,keepaspectratio,angle=-90]{birch_by_Aj_Vimalo_3_CMYK.png}}}
+
 \backmatter
 
 \bookmarksetup{startatroot}
 
-\chapterstyle{backmatter}
+%\chapterstyle{backmatter}
+
+\thispagestyle{empty}
+\input{./src-tex/for-free-distribution.tex}
 
 %% Copyright details
 %% -----------------
 
-\cleartorecto
+\clearpage
+
 \thispagestyle{plain}
 \input{./src-tex/copyright-details-aruno.tex}
 
