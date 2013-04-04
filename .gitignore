@@ -1,3 +1,5 @@
 *.swp
 *.aux
 *.log
+*.toc
+book_main.pdf

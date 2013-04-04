@@ -1,7 +1,7 @@
 \select@language {slovene}
 \contentsline {chapter}{Uvod}{13}{chapter*.1}
-\contentsline {chapter}{Predgovor za Slovenskega Bralca}{15}{chapter*.2}
-\contentsline {book}{\booknumberline {I}108 Prispodob}{17}{book.1}
+\contentsline {chapter}{Predgovor za slovenskega bralca}{15}{chapter*.2}
+\contentsline {book}{\booknumberline {I}108 prispodob}{17}{book.1}
 \contentsline {section}{Tvoj pravi dom}{19}{section*.4}
 \contentsline {section}{Proti oceanu}{20}{section*.5}
 \contentsline {section}{Podtalnica}{20}{section*.6}
@@ -79,14 +79,14 @@
 \contentsline {section}{Zapisane besede}{73}{section*.78}
 \contentsline {section}{Padec z drevesa}{74}{section*.79}
 \contentsline {section}{Učenje pisanja}{75}{section*.80}
-\contentsline {section}{Otrok in odrasel}{75}{section*.81}
+\contentsline {section}{Otrok in odrasli}{75}{section*.81}
 \contentsline {section}{Palica}{76}{section*.82}
 \contentsline {section}{Slikanje slike}{76}{section*.83}
 \contentsline {section}{Hrana, ki ti je všeč}{77}{section*.84}
 \contentsline {section}{Lov na kuščarja}{78}{section*.85}
 \contentsline {section}{Voda kaplja, voda teče}{79}{section*.86}
 \contentsline {section}{Paša vodnih bivolov}{80}{section*.87}
-\contentsline {section}{Kadar moramo premlatiti bivola}{81}{section*.88}
+\contentsline {section}{Kadar moramo namlatiti bivola}{81}{section*.88}
 \contentsline {section}{Vzgoja otroka}{81}{section*.89}
 \contentsline {section}{Pravilna oblika}{82}{section*.90}
 \contentsline {section}{Sejanje riža}{82}{section*.91}
