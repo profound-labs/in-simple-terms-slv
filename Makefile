@@ -21,6 +21,9 @@ view:
 cover:
 	$(LATEX) $(LATEX_OPTS) cover.tex
 
+print-specs:
+	org-ruby print-specs.org --translate textile | pandoc --from=textile --to=odt -o print-specs.odt;
+
 clean:
 	+rm -fv $(FILE).{dvi,ps,pdf,aux,log,bbl,blg}
 

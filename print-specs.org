@@ -1,0 +1,16 @@
+#+TITLE: Print Specs for In Simple Terms (Slovenian)
+
+* Print Specs for In Simple Terms (Slovenian)
+ 
+| Title:               | In Simple Terms               |
+| Language:            | Slovenian                     |
+| Author:              | Ajahn Chah                    |
+| Page width:          | 5.25in                        |
+| Page height:         | 8in                           |
+| Spine width:         | 6.406mm                       |
+| Mainmatter:          | 102 pages                     |
+| Mainmatter material: | cream 70gsm                   |
+| Cover material:      | 300gsm 2 side coated art card |
+| Cover finishing:     | Matt                          |
+| Binding:             | perfect binding               |
+
