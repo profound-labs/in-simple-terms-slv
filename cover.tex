@@ -1,0 +1,106 @@
+\documentclass[11pt,a4paper,oneside,showtrims]{memoir}
+
+\makeatletter
+
+\usepackage{calc}
+\usepackage[cmyk]{xcolor}
+\usepackage{graphicx}
+\graphicspath{{./src-images/}}
+\usepackage{eso-pic}
+\usepackage{soul}
+
+\usepackage{fontspec}
+\defaultfontfeatures{Ligatures={TeX}}
+
+\setmainfont[
+  Renderer = Basic,
+  BoldFont = Shaker 2 Bold,
+]{Shaker 2 Light}
+
+\sodef\soChapter{}{.05em}{.2em plus.1em}{.1em plus.1em minus.1em}
+
+\definecolor{sunflower}{RGB}{227, 187, 20}
+
+\newlength\onePageWidth
+\newlength\onePageHeight
+\newlength\spineWidth
+
+% pagesize: 5.25in x 8in
+% spinewidth: 6.406mm = (102/2)*0.106+1
+\setlength{\onePageWidth}{5.25in}
+\setlength{\onePageHeight}{8in}
+\setlength{\spineWidth}{6.406mm}
+
+\newlength\geoPaperWidth
+\setlength\geoPaperWidth{2\onePageWidth+\spineWidth}
+\newlength\frontCoverX
+\setlength\frontCoverX{\onePageWidth+\spineWidth}
+
+\setstocksize{\onePageHeight + 40mm}{\geoPaperWidth + 40mm}
+\setlength{\paperheight}{\onePageHeight}
+\setlength{\paperwidth}{\geoPaperWidth}
+\trimXmarks
+\trimLmarks
+\quarkmarks
+\settrims{0.5\stockheight - 0.5\paperheight}{0.5\stockwidth - 0.5\paperwidth}
+\settrimmedsize{\onePageHeight}{\geoPaperWidth}{*}
+
+\pagestyle{empty}
+
+\makeatother
+
+\begin{document}
+\mbox{}
+%\pagecolor[RGB]{137, 101, 82}
+
+\AddToShipoutPictureFG*{\put(\LenToUnit{0mm},\LenToUnit{9mm})%
+{%
+\begin{minipage}[b][20mm][b]{\onePageWidth}
+\centering\fontsize{15}{15}\selectfont
+\color[gray]{0.2}
+
+\includegraphics[keepaspectratio, height=15mm]{buddho.jpg}
+\vspace*{3mm}
+
+\fontsize{12}{12}\selectfont
+ARUNO PUBLICATIONS
+\vspace*{4mm}
+
+\fontsize{12}{12}\selectfont
+This book has been sponsored for free distribution.
+
+\end{minipage}
+}}
+
+\AddToShipoutPictureFG*{\put(\LenToUnit{\frontCoverX},\LenToUnit{58mm})%
+{\includegraphics[
+  keepaspectratio,
+  height=150mm,
+  clip,
+  trim=0 0 20mm 0,
+]{cover-image.jpg}}}
+
+\AddToShipoutPictureFG*{\put(\LenToUnit{\frontCoverX},\LenToUnit{12mm})%
+{%
+\begin{minipage}[b][40mm][b]{\onePageWidth}
+\centering
+\color[gray]{0.2}
+
+\fontsize{30}{30}\selectfont
+S PREPROSTIMI BESEDAMI
+
+\vspace*{5mm}
+
+\fontsize{14}{14}\selectfont
+108 budističnih prispodob v razmislek
+
+\vspace*{14mm}
+
+\fontsize{14}{14}\selectfont
+{\color{sunflower}\textbf{ČASTITI AJAHN CHAH}}
+
+\end{minipage}
+}}
+
+\end{document}
+

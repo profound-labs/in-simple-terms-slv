@@ -3,3 +3,5 @@
 *.log
 *.toc
 book_main.pdf
+cover.pdf
+pdf-keep/proofing/
